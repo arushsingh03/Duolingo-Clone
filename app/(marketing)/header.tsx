@@ -30,7 +30,7 @@ export const Header = () => {
                <SignedOut>
                 <SignInButton mode="modal" afterSignInUrl ="/learn"
                 afterSignUpUrl=".learn">
-                    <Button variant={"secondary"} size={"lg"}>
+                    <Button variant={"default"} size={"lg"}>
                         Login 
                     </Button>
                 </SignInButton>
