@@ -20,7 +20,11 @@ export default function Home (){
                     </ClerkLoading>
                     <ClerkLoaded>
                         <SignedOut>
-                          <SignUpButton mode="modal" afterSignInUrl="/learn" afterSignUpUrl="/learn">
+                          <SignUpButton 
+                            mode="modal" 
+                            afterSignInUrl="/learn" 
+                            afterSignUpUrl="/learn"
+                            >
                                 <Button variant={"secondary"} size="lg" className="w-full" >
                                     Get Started 
                                 </Button>
@@ -42,5 +46,6 @@ export default function Home (){
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
+
