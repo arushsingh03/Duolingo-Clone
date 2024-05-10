@@ -5,8 +5,6 @@ export default function home(){
 
     <div className="p-5 space-y-5 flex flex-col max-w-[200px]">
       <Button variant={"default"}>Default</Button>
-      <Button variant={"classic"}>Classic</Button>
-      <Button variant={"stylish"}>Stylish</Button>
       <Button variant={"secondary"}>Secondary</Button>   
     </div>
   )
