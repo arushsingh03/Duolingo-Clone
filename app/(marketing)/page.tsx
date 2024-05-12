@@ -22,6 +22,7 @@ export default function Home (){
                         <SignedOut>
                           <SignUpButton 
                             mode="modal" 
+                            
                             afterSignInUrl="/learn" 
                             afterSignUpUrl="/learn"
                             >
@@ -29,7 +30,9 @@ export default function Home (){
                                     Get Started 
                                 </Button>
                           </SignUpButton>
-                          <SignInButton mode="modal" afterSignInUrl="/learn" afterSignUpUrl="/learn">
+                          <SignInButton mode="modal"
+                           afterSignInUrl="/learn" 
+                           afterSignUpUrl="/learn">
                                 <Button variant={"primaryOutline"} size="lg" className="w-full" >
                                     I already have an account
                                 </Button>
