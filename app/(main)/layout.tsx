@@ -6,9 +6,13 @@ const MainLayout = ({
     children,
 }: Props) => {
     return (
-        <div>
+        <>
+        <main className="pl-[256px] h-full">
+            <div className="bg-red-500 h-full">
             {children}
-        </div>
+            </div>
+        </main>
+        </>
     );
 };
 
