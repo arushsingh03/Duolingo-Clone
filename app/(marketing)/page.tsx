@@ -22,7 +22,7 @@ export default function Home (){
                         <SignedOut>
                           <SignUpButton 
                             mode="modal" 
-                            
+                            // @ts-ignore
                             afterSignInUrl="/learn" 
                             afterSignUpUrl="/learn"
                             >
@@ -31,6 +31,7 @@ export default function Home (){
                                 </Button>
                           </SignUpButton>
                           <SignInButton mode="modal"
+                          // @ts-ignore
                            afterSignInUrl="/learn" 
                            afterSignUpUrl="/learn">
                                 <Button variant={"primaryOutline"} size="lg" className="w-full" >

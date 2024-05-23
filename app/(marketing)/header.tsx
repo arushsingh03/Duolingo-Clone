@@ -28,7 +28,10 @@ export const Header = () => {
                 afterSignOutUrl="/"/>
                </SignedIn>
                <SignedOut>
-                <SignInButton mode="modal" afterSignInUrl ="/learn"
+                <SignInButton 
+                mode="modal"
+                // @ts-ignore 
+                afterSignInUrl ="/learn"
                 afterSignUpUrl=".learn">
                     <Button variant={"ghost"} size={"lg"}>
                         Login 
