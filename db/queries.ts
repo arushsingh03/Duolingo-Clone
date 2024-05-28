@@ -5,7 +5,7 @@ import { challengeProgress, challenges, courses, units, userProgress } from "@/d
 import { eq } from "drizzle-orm";
 
 export const getUserProgress = cache(async () => {
-    const { userId } = await auth();
+    const { userId } = auth();
 
     if(!userId){
         return null;
