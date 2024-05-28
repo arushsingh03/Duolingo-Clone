@@ -120,7 +120,6 @@ export const LessonButton = ({
                             </Button>
                 )}
             </div>
-            {id}
         </Link>
     )
 }
