@@ -136,9 +136,9 @@ export const getLesson = cache(async (id?: number)=> {
         return null;
     }
 
-    const CourseProgress = await getCourseProgress();
+    const courseProgress = await getCourseProgress();
 
-    const lessonId = id || CourseProgress?.activeLessonId;
+    const lessonId = id || courseProgress?.activeLessonId;
 
     if (!lessonId) {
         return null;
